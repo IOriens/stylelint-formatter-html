@@ -69,6 +69,9 @@ measureFileSizesBeforeBuild(paths.appBuild)
         );
       } else {
         console.log(chalk.green('Compiled successfully.\n'));
+        const tmplSrc = path.relative(process.cwd(), './build/index.html')
+        const tmplDist = path.relative(process.cwd(), './tmpl/index.html')
+        fs.copyFileSync(tmplSrc, tmplDist)
       }
 
       console.log('File sizes after gzip:\n');

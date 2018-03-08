@@ -8,6 +8,6 @@ module.exports = function (results) {
     return _.omitBy(result, (value, key) => key[0] === '_')
   })
 
-  const tmpl = fs.readFileSync(path.resolve(__dirname, './build/index.html'))
+  const tmpl = fs.readFileSync(path.resolve(__dirname, './tmpl/index.html'))
   return tmpl.toString().replace('LINT_RESULT', JSON.stringify(cleanedResults))
 }

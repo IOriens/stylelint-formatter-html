@@ -7,8 +7,14 @@
 /coverage
 
 # production
-/build
-/tmpl
+build
+config
+public
+scripts
+src
+
+*.md
+
 # misc
 .DS_Store
 .env.local
