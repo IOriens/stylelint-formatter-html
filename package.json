@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-result-render",
+  "name": "stylelint-formatter-html",
   "version": "1.0.1",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
