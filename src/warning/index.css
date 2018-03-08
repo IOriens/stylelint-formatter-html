@@ -1,0 +1,67 @@
+.result {
+    align-items: baseline;
+    display: flex;
+    font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+    margin-top: 2px;
+}
+
+.location {
+    color: darkgray;
+    flex: none;
+    font-size: 12px;
+    margin: 0 8px 0 0;
+    min-width: 36px;
+}
+
+.severity {
+    background: grey;
+    border-radius: 2px;
+    color: white;
+    flex: none;
+    font-size: 10px;
+    margin: 0 8px 0 0;
+    min-width: 48px;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.errorSeverity {
+    background: crimson;
+    /* background: grey; */
+    border-radius: 2px;
+    color: white;
+    flex: none;
+    font-size: 10px;
+    margin: 0 8px 0 0;
+    min-width: 48px;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.warningSeverity {
+    background: gold;
+    /* background: grey; */
+    border-radius: 2px;
+    color: white;
+    flex: none;
+    font-size: 10px;
+    margin: 0 8px 0 0;
+    min-width: 48px;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.message {
+    font-size: 12px;
+    margin: 0;
+}
+
+.ruleName {
+    color: darkgray;
+}
+
+.ruleLink {
+    color: darkgray;
+    text-decoration: underline;
+
+}

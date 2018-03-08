@@ -1,0 +1,10 @@
+.root {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.success {
+  color: limegreen;
+  font: 12px/16px Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+}
